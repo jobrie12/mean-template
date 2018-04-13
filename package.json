@@ -1,0 +1,29 @@
+{
+  "name": "mean-template",
+  "main": "server.js",
+  "version": "0.0.1",
+  "author": "James O'Brien <james@oneirossolutions.com> (http://oneirossolutions.com)",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.15",
+    "angular": "^1.6.9",
+    "angular-route": "^1.6.9",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "d3": "^5.0.0",
+    "ejs": "^2.5.8",
+    "express": "^4.16.3",
+    "express-jwt": "^5.3.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "materialize-css": "^1.0.0-beta",
+    "method-override": "^2.3.10",
+    "mongoose": "^5.0.14",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "sugar": "^2.0.4",
+    "xlsx": "^0.12.8"
+  }
+}

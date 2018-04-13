@@ -1,0 +1,40 @@
+<!-- public/views/home.html -->
+<div class="container">
+    <br><br>
+    <h1 class="header center orange-text">Franchise Genome</h1>
+    <div class="row center" data-ng-show="isLoggedIn()">
+        <h5 class="header col s12 light">You are already signed in as {{currentUser()}}</h5>
+        <button data-ng-click="logOut()" class="btn-large waves-effect waves-light orange">Log out</button>
+    </div>
+    <div class="row center"  data-ng-hide="isLoggedIn()">
+        <!-- SIGNUP FORM -->
+        <h5 class="header col s12 light">Sign Up to View Reports</h5>
+        <form data-ng-submit="signUp()" class="center">
+            <div class="form-group center-align">
+                <label>Email</label>
+                <input type="text" class="form-control" name="email" ng-model="user.email" style="text-align: center">
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" class="form-control" name="password" ng-model="user.password" style="text-align: center">
+            </div>
+            <div class="form-group">
+                <label>Confirm Pass</label>
+                <input type="password" class="form-control" name="confirm" ng-model="user.confirm_pass" style="text-align: center">
+            </div>
+            <div class="form-group">
+                <label>Access Code</label>
+                <input type="text" class="form-control" name="access" ng-model="user.access_code" style="text-align: center">
+            </div>
+
+            <button type="submit" class="btn-large waves-effect waves-light orange">Sign Up</button>
+        </form>
+        <br><br>
+
+        <br>
+
+        <p>Have an account? <a href="/login">Login</a></p>
+        <p>Or go <a href="/">home</a>.</p>
+    </div>
+
+</div>

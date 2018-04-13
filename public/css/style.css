@@ -1,0 +1,104 @@
+.main-orange {
+    background-color: #ff8700;
+}
+
+.main-green {
+    background-color: #26a69a;
+}
+
+.dark-green {
+    background-color: #196f67;
+}
+
+.main-orange-text {
+    color: #ff8700;
+}
+
+.main-green-text {
+    color: #26a69a;
+}
+.dark-green-text {
+    color: #196f67;
+}
+
+.round-input {
+    border-radius: 20px;
+    background-color: white;
+    border: 4px inset #196f67;
+    margin-right: 10px;
+}
+
+input-field {
+    background-color: white;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+circle {
+    fill-opacity: .5;
+    stroke: rgb(255, 135, 0);
+    stroke-width: 2px;
+}
+
+.listrow:hover>td {
+    color: #196f67;
+}
+
+.leaf circle {
+    fill-opacity: 1 !important;
+}
+
+.clickable, .nav, .pagination, .carousel a, .dropdown-menu > li > a {
+    cursor: pointer;
+}
+
+text {
+    font-size: 10px;
+    text-anchor: middle;
+}
+
+.select-wrapper>input.select-dropdown{
+    border-bottom: 1px solid #196f67 !important;
+    color: black;
+}
+
+input[type=number]{
+    border-bottom: 1px solid #196f67 !important;
+    color: black;
+}
+
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* aspect ratio */
+    vertical-align: top;
+    overflow: hidden;
+}
+.svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    padding: 12px;
+    font: 12px sans-serif;
+    background: white;
+    border: 0px;
+    border-radius: 100%;
+    pointer-events: none;
+}
